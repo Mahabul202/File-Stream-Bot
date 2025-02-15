@@ -43,7 +43,7 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', ''))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://mahabul201:Mahbul288550@mahabul201.83adx.mongodb.net/?retryWrites=true&w=majority&appName=Mahabul201 '))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'Hindi_Dub_Animes_Official')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
