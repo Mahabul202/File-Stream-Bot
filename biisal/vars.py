@@ -21,7 +21,7 @@ class Var(object):
     PICS = (environ.get('PICS', 'https://www.uhdpaper.com/2023/07/genshin-impact-furina-game-4k-161m.html')).split()
     name = str(getenv('name', 'linkstreamrobot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
-    WORKERS = int(getenv('WORKERS', '99999999'))
+    WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002265871952'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002485776908'))
     PORT = int(getenv('PORT', '8080'))
